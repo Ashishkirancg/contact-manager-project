@@ -26,6 +26,8 @@ public class ContactServiceImpl implements ContactService {
 		
 	  //fetching all the contacts from database
 	  List<Contact> allUsersList = contactrepo.findAll();
+
+	  System.out.println("hello");
 	  
 	  //Payload List to return the list
 	  List<Contact> payloadList = new ArrayList();
